@@ -1,15 +1,19 @@
-body{
-  margin:0;
-}
-a{
+  body{
+    font-family: 'Bangers', Do Hyeon;
+    text-shadow: 1px 1px 1px #aaa;
+    margin:0;
+    font-size: 20px;
+  }
+  a{
     color:black;
     text-decoration: none;
   }
   h1{
-    text-decoration:underline;
-    font-size:45px;
+    text-decoration: none;
+    font-size:80px;
     text-align:center;
-    border-bottom:solid black 1px;
+    border-bottom:dashed black 5px;
+    border-radius: 100px;
     padding:25px;
     margin:0;
   }
@@ -18,7 +22,7 @@ a{
     grid-template-columns: 150px 1fr;
   }
   #grid ol{
-    border-right:solid black 1px;
+    border-right:dashed black 5px;
     width:100px;
     margin:0;
     padding:20px;
