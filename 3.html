@@ -13,16 +13,21 @@
 
     <meta charset="utf-8">
     <title>HTML 공부~~</title>
+    <link rel= "stylesheet" type="text/css" href="css_ex.css">
   </head>
   <body>
     <h1><a href="index.html"; target="_self"; title="홈페이지 바로가기">WEB</a></h1>
-    <ol>
-      <li><a href="1.html"; target="_self"; title="HTML">HTML</a></li>
-      <li><a href="2.html"; target="_self"; title="CSS">CSS</a></li>
-      <li><a href="3.html"; target="_self"; title="JavaScript">JavScript</a></li>
-    </ol>
-    <h2>JavaScript</h2>
-    <p>JavaScript는 어렵지 않다고 믿는다.</p>
+      <div id="grid">
+      <ol>
+        <li><a href="1.html"; target="_self"; title="HTML" class="saw">HTML</a></li>
+        <li><a href="2.html"; target="_self"; title="CSS" class="saw">CSS</a></li>
+        <li><a href="3.html"; target="_self"; title="JavaScript" id="active">JavScript</a></li>
+      </ol>
+        <div id="article">
+          <h2>JavaScript</h2>
+          <p>JavaScript는 어렵지 않다고 믿는다.</p>
+        </div>
+    </div>
     <p>
    <div id="disqus_thread"></div>
 <script>
